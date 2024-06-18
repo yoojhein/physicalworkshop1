@@ -30,7 +30,6 @@
     width: calc((100vw - 2rem) / 12 * 7);
   }
   
-  
   .logo-holder {
     display: flex;
     justify-content: center;
