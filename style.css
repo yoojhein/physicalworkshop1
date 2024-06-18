@@ -16,6 +16,20 @@
     align-items: center;
     flex-direction: column;
   }
+    
+  .main-holder {
+    display: flex;
+    justify-content: center;
+    animation-name: rotate;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  .main-holder img {
+    width: calc((100vw - 2rem) / 12 * 7);
+  }
+  
   
   .logo-holder {
     display: flex;
